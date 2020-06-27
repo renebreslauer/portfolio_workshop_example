@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+.Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 100;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  &_Group {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    &_Link {
+      color: blue;
+      text-decoration: none;
+      &_active {
+      }
+    }
+  }
+}
+
+.NavScrolled {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  backdrop-filter: blur(20px);
+}
