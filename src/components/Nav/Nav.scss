@@ -15,6 +15,7 @@
     justify-content: space-evenly;
     text-align: center;
     &_Link {
+      font-size: 1rem;
       color: black;
       text-decoration: none;
       font-family: forma-djr-deck, sans-serif;
@@ -23,6 +24,8 @@
       transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
       &:hover {
+        color: white;
+        -webkit-text-stroke: 1px black;
         text-shadow: -1px 2px red;
         transform: translate(2px, -2px);
       }
