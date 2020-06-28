@@ -15,9 +15,9 @@ function App() {
     <>
       <Nav />
       <Home />
+      <About />
       <Skills />
       <Projects />
-      <About />
       <Contact />
       <Footer />
     </>

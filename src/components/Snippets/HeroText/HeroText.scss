@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slideDown 2s;
 
   &_text {
     width: 28rem;
@@ -21,25 +22,39 @@
     p:nth-child(4) {
       font-size: 3.2rem;
       line-height: 3.5rem;
+      &:hover .Hero_text_span3 {
+        text-shadow: -3px 3px black;
+        cursor: default;
+      }
     }
 
     &_span1 {
-      font-size: 6rem;
+      font-size: 5rem;
       line-height: 2rem;
       color: red;
       transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+      text-transform: uppercase;
       &:hover {
         text-shadow: -7px 7px black;
         cursor: default;
       }
     }
     &_span2 {
-      font-size: 4.1rem;
-      line-height: 3rem;
+      font-size: 3.4rem;
+      line-height: 3.7rem;
+      color: red;
+      transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+      text-transform: uppercase;
+      &:hover {
+        text-shadow: -5px 5px black;
+        cursor: default;
+      }
+    }
+    &_span3 {
       color: red;
       transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
       &:hover {
-        text-shadow: -5px 5px black;
+        text-shadow: -3px 3px black;
         cursor: default;
       }
     }
@@ -56,12 +71,11 @@
     }
   }
   &_circle {
-    background-color: white;
-    width: 30rem;
-    height: 30rem;
+    background-color: black;
+    width: 40rem;
+    height: 40rem;
     border-radius: 200%;
     position: absolute;
-    mix-blend-mode: saturation;
   }
 }
 
@@ -71,5 +85,47 @@
   &:hover {
     text-shadow: -3px 3px red;
     cursor: default;
+  }
+}
+
+.span_name {
+  color: transparent;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.Hero_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: reduce 2s;
+  animation-delay: 2s;
+  background-color: black;
+  animation-fill-mode: forwards;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  p {
+    color: red;
+    font-size: 3rem;
+    margin-top: 3rem;
+    position: absolute;
+    z-index: 10000;
+  }
+}
+
+@keyframes reduce {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes expand {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }

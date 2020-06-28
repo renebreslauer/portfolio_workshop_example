@@ -11,3 +11,62 @@ root {
 body {
   height: 200vh;
 }
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes dissolveIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  55%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-45px);
+  }
+  60% {
+    -webkit-transform: translateY(-35px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  55%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-45px);
+  }
+  60% {
+    -webkit-transform: translateY(-35px);
+  }
+}

@@ -36,6 +36,13 @@ class Nav extends React.Component {
             Home
           </a>
           <a
+            href="#About"
+            class="Nav_Group_Link"
+            activeClassName="Nav_Group_Link_active"
+          >
+            About
+          </a>
+          <a
             href="#Skills"
             class="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
@@ -49,13 +56,7 @@ class Nav extends React.Component {
           >
             Projects
           </a>
-          <a
-            href="#About"
-            class="Nav_Group_Link"
-            activeClassName="Nav_Group_Link_active"
-          >
-            About
-          </a>
+
           <a
             href="#Contact"
             class="Nav_Group_Link"
