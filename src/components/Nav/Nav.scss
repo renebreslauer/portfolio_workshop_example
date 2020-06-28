@@ -34,10 +34,12 @@
 }
 
 .NavScrolled {
-  background: rgba(0, 0, 0, 0.8);
+  // background: rgba(0, 0, 0, 0.8);
+  background: rgba($color: #ffffff, $alpha: 0.6);
   padding: 15px 0;
   backdrop-filter: blur(20px);
   .Nav_Group_Link {
-    color: white;
+    // color: white;
+    color: black;
   }
 }
