@@ -41,5 +41,11 @@
   .Nav_Group_Link {
     // color: white;
     color: black;
+    &:hover {
+      color: white;
+      -webkit-text-stroke: 1px black;
+      text-shadow: -1px 2px red;
+      transform: translate(2px, -2px);
+    }
   }
 }
