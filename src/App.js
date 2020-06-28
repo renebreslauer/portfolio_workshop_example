@@ -1,5 +1,13 @@
 import React from 'react'
-import { Nav, Home } from './components/index'
+import {
+  Nav,
+  Home,
+  Skills,
+  Projects,
+  About,
+  Contact,
+  Footer,
+} from './components/index'
 import './App.scss'
 
 function App() {
@@ -7,6 +15,11 @@ function App() {
     <>
       <Nav />
       <Home />
+      <Skills />
+      <Projects />
+      <About />
+      <Contact />
+      <Footer />
     </>
   )
 }

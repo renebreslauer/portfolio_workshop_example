@@ -1,2 +1,7 @@
 export { default as Nav } from '../components/Nav/Nav'
 export { default as Home } from '../components/Home/Home'
+export { default as Skills } from '../components/Skills/Skills'
+export { default as Projects } from '../components/Projects/Projects'
+export { default as About } from '../components/About/About'
+export { default as Contact } from '../components/Contact/Contact'
+export { default as Footer } from '../components/Footer/Footer'

@@ -12,8 +12,10 @@
     justify-content: space-evenly;
     text-align: center;
     &_Link {
-      color: blue;
+      color: black;
       text-decoration: none;
+      font-family: forma-djr-deck, sans-serif;
+      text-transform: uppercase;
       &_active {
       }
     }
@@ -24,4 +26,7 @@
   background: rgba(0, 0, 0, 0.8);
   padding: 15px 0;
   backdrop-filter: blur(20px);
+  .Nav_Group_Link {
+    color: white;
+  }
 }
