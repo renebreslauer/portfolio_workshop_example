@@ -3,4 +3,71 @@
 #Contact {
   padding: 100px 0;
   height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.Contact_body {
+  text-align: center;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  button {
+    background-color: red;
+    width: 5rem;
+    height: 3rem;
+    margin-top: 10px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.contact_form_name {
+  height: 2rem;
+  width: 30rem;
+  border: 1px solid black;
+  margin: 10px 0;
+  outline: none;
+  padding: 0 20px;
+  font-family: aglet-slab, sans-serif;
+  background-color: white;
+}
+.contact_form_email {
+  height: 2rem;
+  width: 30rem;
+  border: 1px solid black;
+  margin: 10px 0;
+  outline: none;
+  padding: 0 20px;
+  font-family: aglet-slab, sans-serif;
+  background-color: white;
+}
+.contact_form_message {
+  resize: none;
+  border: 1px solid black;
+  margin: 5px 0;
+  height: 15rem;
+  outline: none;
+  padding: 20px 20px;
+  font-family: aglet-slab, sans-serif;
+  background-color: white;
+  width: 30rem;
+}
+
+.contact_form_email:focus {
+  border-bottom: 2px solid red;
+}
+.contact_form_name:focus {
+  border-bottom: 2px solid red;
+}
+.contact_form_message:focus {
+  border-bottom: 2px solid red;
+}
+
+.copyright_message {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: aglet-slab, sans-serif;
+  width: 100%;
 }

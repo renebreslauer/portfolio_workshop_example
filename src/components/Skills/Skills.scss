@@ -1,8 +1,8 @@
 @import '../../App.scss';
 
 #Skills {
-  padding: 100px 0;
   height: 70vh;
+  padding: 100px 0;
 }
 .Skills_header {
   width: 100%;
@@ -10,12 +10,13 @@
   justify-content: center;
   &_wrapper {
     width: 40rem;
-    border-bottom: 5px solid black;
-    h1 {
+    p {
       text-align: center;
       display: inline-block;
       padding: 20px 20px;
       color: black;
+      font-family: aglet-slab, sans-serif;
+      font-weight: 400;
     }
   }
 }
@@ -29,9 +30,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     height: 100%;
-    border-right: 1px solid black;
-    justify-content: center;
+    border-right: 1px dashed black;
+    position: relative;
+    p {
+      width: 65%;
+      padding: 20px 10px 10px;
+      margin-left: 20px;
+      font-family: aglet-slab, sans-serif;
+      font-weight: 400;
+      text-align: left;
+    }
   }
   &_col_2 {
     display: flex;
@@ -41,4 +51,10 @@
     font-family: forma-djr-deck, sans-serif;
     font-weight: 700;
   }
+}
+
+.Skills_title {
+  width: 70%;
+  text-align: left;
+  border-bottom: 1px dashed black;
 }
