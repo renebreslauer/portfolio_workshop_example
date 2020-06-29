@@ -35,7 +35,7 @@ class Nav extends React.Component {
           <NavLink
             smooth
             exact
-            to="/"
+            to="/#Home"
             className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
