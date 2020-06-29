@@ -1,5 +1,7 @@
 import React from 'react'
 import './Skills.scss'
+import ScrollAnimation from 'react-animate-on-scroll'
+import { SkillsMeter } from '../Snippets/index'
 
 class Home extends React.Component {
   render() {
@@ -17,12 +19,13 @@ class Home extends React.Component {
           <div className="Skills_body_col_1">
             <h2>Skills</h2>
           </div>
+
           <div className="Skills_body_col_2">
-            <h2>HTML</h2>
-            <h2>CSS</h2>
-            <h2>JavaScript</h2>
-            <h2>React</h2>
-            <h2>Node</h2>
+            <SkillsMeter language_title="HTML" percentage="95%" />
+            <SkillsMeter language_title="CSS" percentage="80%" />
+            <SkillsMeter language_title="JavaScript" percentage="75%" />
+            <SkillsMeter language_title="React" percentage="60%" />
+            <SkillsMeter language_title="Node" percentage="50%" />
           </div>
         </div>
       </div>

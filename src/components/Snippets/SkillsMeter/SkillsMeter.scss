@@ -1,0 +1,45 @@
+.Skills_group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  p {
+    padding: 10px;
+  }
+}
+
+.Skills_meter {
+  width: 20rem;
+  height: 2rem;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  overflow: hidden;
+}
+.HTML {
+  height: 2rem;
+  width: 19rem;
+  background-color: red;
+}
+.CSS {
+  height: 2rem;
+  width: 16rem;
+  background-color: red;
+}
+.JavaScript {
+  height: 2rem;
+  width: 15rem;
+  background-color: red;
+}
+.React {
+  height: 2rem;
+  width: 12rem;
+  background-color: red;
+}
+.Node {
+  height: 2rem;
+  width: 10rem;
+  background-color: red;
+}

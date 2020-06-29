@@ -1,4 +1,6 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-hash-link'
 import {
   Nav,
   Home,
@@ -13,13 +15,16 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Nav />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Nav />
+
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

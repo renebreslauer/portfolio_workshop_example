@@ -7,6 +7,9 @@ class Contact extends React.Component {
       <div id="Contact">
         <div className="Contact_body">
           <h1>Contact</h1>
+          <div className="Form_group">
+            <input></input>
+          </div>
         </div>
       </div>
     )

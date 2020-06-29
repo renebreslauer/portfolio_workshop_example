@@ -1,5 +1,9 @@
 import React from 'react'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
+import smoothscroll from 'smoothscroll-polyfill'
 import './Nav.scss'
+
+smoothscroll.polyfill()
 
 class Nav extends React.Component {
   constructor(props) {
@@ -28,42 +32,48 @@ class Nav extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Nav NavScrolled' : 'Nav'}>
         <div className="Nav_Group">
-          <a
-            href="#Home"
-            class="Nav_Group_Link"
+          <NavLink
+            smooth
+            exact
+            to="/"
+            className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Home
-          </a>
-          <a
-            href="#About"
-            class="Nav_Group_Link"
+          </NavLink>
+          <NavLink
+            smooth
+            to="/#About"
+            className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             About
-          </a>
-          <a
-            href="#Skills"
+          </NavLink>
+          <NavLink
+            smooth
+            to="/#Skills"
             class="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Skills
-          </a>
-          <a
-            href="#Projects"
+          </NavLink>
+          <NavLink
+            smooth
+            to="/#Projects"
             class="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Projects
-          </a>
+          </NavLink>
 
-          <a
-            href="#Contact"
+          <NavLink
+            smooth
+            to="/#Contact"
             class="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Contact
-          </a>
+          </NavLink>
         </div>
       </div>
     )

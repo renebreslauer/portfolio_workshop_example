@@ -36,24 +36,9 @@
   &_col_2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     font-family: forma-djr-deck, sans-serif;
     font-weight: 700;
-
-    h2:nth-child(1) {
-      font-size: 5rem;
-    }
-    h2:nth-child(2) {
-      font-size: 7rem;
-    }
-    h2:nth-child(3) {
-      font-size: 3rem;
-    }
-    h2:nth-child(4) {
-      font-size: 5rem;
-    }
-    h2:nth-child(5) {
-      font-size: 5.7rem;
-    }
   }
 }
