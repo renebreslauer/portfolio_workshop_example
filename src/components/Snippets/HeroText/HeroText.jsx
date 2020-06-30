@@ -1,7 +1,18 @@
 import React from 'react'
 import './HeroText.scss'
+import Lottie from 'react-lottie'
+import Eyeballs from '../../../assets/lotties/eyeballs.json'
 
 function HeroText() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: Eyeballs,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  }
+
   return (
     <div className="Hero">
       <div className="Hero_circle"></div>
@@ -24,6 +35,9 @@ function HeroText() {
         <p>
           <span className="Hero_text_span2">problem solver</span>
         </p>
+      </div>
+      <div class="hero_lottie">
+        <Lottie options={defaultOptions} />
       </div>
     </div>
   )
