@@ -1,0 +1,27 @@
+.Lightbulb_container {
+  width: 70%;
+  display: flex;
+  flex-direction: flex-start;
+}
+#Lightbulb {
+  height: 200px;
+  margin-left: 1.5rem;
+  //   animation: fadeInDownBig 2s;
+  //   animation-delay: 3s;
+  //   animation-fill-mode: backwards;
+}
+
+.st0 {
+  fill: #010001;
+}
+.st1 {
+  fill: #f7ea2a;
+}
+.st2 {
+  fill: none;
+}
+.st3 {
+  fill: none;
+  stroke: #010001;
+  stroke-miterlimit: 10;
+}

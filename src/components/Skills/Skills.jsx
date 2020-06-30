@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.scss'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { SkillsMeter, HeaderText } from '../Snippets/index'
+import { SkillsMeter, HeaderText, Lightbulb } from '../Snippets/index'
 
 class Home extends React.Component {
   render() {
@@ -12,6 +12,9 @@ class Home extends React.Component {
         </div>
         <div className="Skills_body">
           <div className="Skills_body_col_1">
+            <div className="Lightbulb_container">
+              <Lightbulb />
+            </div>
             <div className="Skills_title">
               <ScrollAnimation animateIn="bounceIn">
                 <HeaderText text="Skills" />
@@ -20,8 +23,22 @@ class Home extends React.Component {
 
             <p>
               <ScrollAnimation animateIn="fadeInUp">
-                While my passion lies on the front-end, I have experience
-                working with back-end languages, as well.
+                <p>
+                  While my passion lies on the front-end, I have experience
+                  working with back-end languages and building full-stack
+                  applications from scratch utilizing the following
+                  technologies:
+                </p>
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>PostgreSQL</li>
+                  <li>Ruby on Rails</li>
+                  <li>JQuery</li>
+                </ul>
+                <p>
+                  I am a quick learner and always striving to pick up new
+                  skills.
+                </p>
               </ScrollAnimation>
             </p>
           </div>
