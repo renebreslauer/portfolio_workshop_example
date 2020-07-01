@@ -31,7 +31,17 @@ class Contact extends React.Component {
                   placeholder="Message"
                 ></textarea>
               </ScrollAnimation>
-              <button type="submit">Submit</button>
+              <div className="contact_footer">
+                <button type="submit" className="submit_button">
+                  Submit
+                </button>
+                <p>
+                  <a href="#">Download my resume</a>
+                </p>
+                <p>
+                  Email me at<a href="#">wynstudent@wyncode.com</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

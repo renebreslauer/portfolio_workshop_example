@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.scss'
 import Wynstudent from '../../assets/wynstudent.png'
+import Paw from '../../assets/dog.png'
+import Code from '../../assets/code.png'
+import Sun from '../../assets/sun.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 class About extends React.Component {
@@ -23,10 +26,7 @@ class About extends React.Component {
                 <p>
                   Growing up in sunny South Florida, I attended Florida
                   International University, where I earned my degree in business
-                  management. During this time I worked in the hospitality
-                  industry, where I honed my soft skills and gained the ability
-                  to make quick decisions in a high pressure environment.
-                  Post-grad, I accepted a sales role, working my way into a
+                  management. Post-grad, I worked my way up the ladder to a
                   leadership position. Throughout this time, I helped my company
                   achieve record breaking results and client retention.
                 </p>
@@ -34,14 +34,28 @@ class About extends React.Component {
               <br></br>
               <ScrollAnimation animateIn="fadeInUp">
                 <p>
-                  Craving a career that allows me to exercise problem solving
-                  skills and creativity, I transitioned into web development.
+                  Craving a career that would allow me to exercise my problem
+                  solving skills and creativity, I transitioned into web
+                  development. When I'm not building (or debugging) meaningful
+                  apps, I'm probably hanging out with my dog or at the beach.
                 </p>
               </ScrollAnimation>
               <div className="About_bubbles">
-                <div className="Bubbles"></div>
-                <div className="Bubbles"></div>
-                <div className="Bubbles"></div>
+                <ScrollAnimation animateIn="bounceInRight">
+                  <div className="Bubbles">
+                    <img src={Code} alt="code icon" class="About_icon" />
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="bounceInRight" delay={100}>
+                  <div className="Bubbles">
+                    <img src={Paw} alt="code icon" class="About_icon" />
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="bounceInRight" delay={200}>
+                  <div className="Bubbles">
+                    <img src={Sun} alt="sun icon" class="About_icon" />
+                  </div>
+                </ScrollAnimation>
               </div>
             </div>
           </div>

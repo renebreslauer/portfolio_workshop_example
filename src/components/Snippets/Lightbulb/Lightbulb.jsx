@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 function Lightbulb() {
   return (
     <div>
-      <ScrollAnimation animateIn="fadeInDownBig" delay={1500}>
+      <ScrollAnimation animateIn="bounceInDown" delay={1500}>
         <svg id="Lightbulb" x="0px" y="0px" viewBox="0 0 135.8 283.2">
           <path
             class="st0"
@@ -101,7 +101,7 @@ function Lightbulb() {
           />
         </svg>
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" delay={3000}>
+      <ScrollAnimation animateIn="bounceInDown" delay={3000}>
         <div className="Lightbulb_circle"></div>
       </ScrollAnimation>
     </div>

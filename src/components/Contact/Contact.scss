@@ -71,3 +71,29 @@
   font-family: aglet-slab, sans-serif;
   width: 100%;
 }
+
+.contact_footer {
+  p {
+    font-family: aglet-slab, sans-serif;
+  }
+
+  a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: aglet-slab, sans-serif;
+    color: red;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.submit_button {
+  border-radius: 10px;
+  font-family: aglet-slab, sans-serif;
+  color: white;
+  &:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+}
