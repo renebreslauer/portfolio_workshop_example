@@ -58,3 +58,20 @@
   text-align: left;
   border-bottom: 1px dashed black;
 }
+
+@media screen and (max-width: 950px) {
+  .Skills_body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Skills_title {
+    border: none;
+  }
+  .Skills_body_col_1 {
+    border: none;
+  }
+
+  #Skills {
+    width: 100vw;
+    height: auto;
+  }
+}

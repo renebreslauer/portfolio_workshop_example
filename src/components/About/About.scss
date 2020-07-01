@@ -82,3 +82,13 @@
 .About_icon {
   width: 50px;
 }
+
+@media screen and (max-width: 980px) {
+  #About {
+    width: 100vw;
+    height: auto;
+  }
+  .About_body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
