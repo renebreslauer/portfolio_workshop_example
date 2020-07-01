@@ -38,6 +38,11 @@ class About extends React.Component {
                   skills and creativity, I transitioned into web development.
                 </p>
               </ScrollAnimation>
+              <div className="About_bubbles">
+                <div className="Bubbles"></div>
+                <div className="Bubbles"></div>
+                <div className="Bubbles"></div>
+              </div>
             </div>
           </div>
         </div>

@@ -6,23 +6,15 @@ class Projects extends React.Component {
     return (
       <div id="Projects">
         <div className="Projects_header">
-          <div className="Projects_header_wrapper">
-            <h1>
-              While my passion lies on the front-end, I have experience working
-              with back-end languges, as well.
-            </h1>
-          </div>
+          <div className="Projects_header_wrapper"></div>
         </div>
         <div className="Projects_body">
           <div className="Projects_body_col_1">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
           </div>
           <div className="Projects_body_col_2">
-            <h2>HTML</h2>
-            <h2>CSS</h2>
-            <h2>JavaScript</h2>
-            <h2>React</h2>
-            <h2>Node</h2>
+            <div className="Project_container"></div>
+            <div className="Project_container"></div>
           </div>
         </div>
       </div>
