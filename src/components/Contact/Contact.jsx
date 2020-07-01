@@ -45,7 +45,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <div class="copyright_message">
+        <div className="copyright_message">
           Copyright © 2020 WynStudent. All rights reserved.
         </div>
       </>

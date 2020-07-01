@@ -15,7 +15,11 @@ class About extends React.Component {
           <div className="About_body">
             <div className="About_body_col_1">
               <ScrollAnimation animateIn="fadeInUp">
-                <img src={Wynstudent} class="Wynstudent_image" alt="portrait" />
+                <img
+                  src={Wynstudent}
+                  className="Wynstudent_image"
+                  alt="portrait"
+                />
               </ScrollAnimation>
             </div>
             <div className="About_body_col_2">
@@ -43,17 +47,17 @@ class About extends React.Component {
               <div className="About_bubbles">
                 <ScrollAnimation animateIn="bounceInRight">
                   <div className="Bubbles">
-                    <img src={Code} alt="code icon" class="About_icon" />
+                    <img src={Code} alt="code icon" className="About_icon" />
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="bounceInRight" delay={100}>
                   <div className="Bubbles">
-                    <img src={Paw} alt="code icon" class="About_icon" />
+                    <img src={Paw} alt="code icon" className="About_icon" />
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="bounceInRight" delay={200}>
                   <div className="Bubbles">
-                    <img src={Sun} alt="sun icon" class="About_icon" />
+                    <img src={Sun} alt="sun icon" className="About_icon" />
                   </div>
                 </ScrollAnimation>
               </div>

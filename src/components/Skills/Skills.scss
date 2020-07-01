@@ -35,7 +35,7 @@
     border-right: 1px dashed black;
     position: relative;
     p {
-      width: 65%;
+      width: 50%;
       padding: 20px 10px 10px;
       margin-left: 20px;
       font-family: aglet-slab, sans-serif;
@@ -73,5 +73,17 @@
   #Skills {
     width: 100vw;
     height: auto;
+  }
+}
+
+.Skills_body_text {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  ul {
+    font-family: aglet-slab, sans-serif;
+    padding-right: 150px;
+    text-align: left;
   }
 }

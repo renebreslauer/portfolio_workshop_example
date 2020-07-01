@@ -21,8 +21,8 @@ class Home extends React.Component {
               </ScrollAnimation>
             </div>
 
-            <p>
-              <ScrollAnimation animateIn="fadeInUp">
+            <ScrollAnimation animateIn="fadeInUp">
+              <div className="Skills_body_text">
                 <p>
                   While my passion lies on the front-end, I have experience
                   working with back-end languages and building full-stack
@@ -39,8 +39,8 @@ class Home extends React.Component {
                   I am a quick learner and always striving to pick up new
                   skills.
                 </p>
-              </ScrollAnimation>
-            </p>
+              </div>
+            </ScrollAnimation>
           </div>
           <div className="Skills_body_col_2">
             <SkillsMeter language_title="HTML" percentage="95%" />

@@ -52,7 +52,7 @@ class Nav extends React.Component {
           <NavLink
             smooth
             to="/#Skills"
-            class="Nav_Group_Link"
+            className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Skills
@@ -60,7 +60,7 @@ class Nav extends React.Component {
           <NavLink
             smooth
             to="/#Projects"
-            class="Nav_Group_Link"
+            className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Projects
@@ -69,7 +69,7 @@ class Nav extends React.Component {
           <NavLink
             smooth
             to="/#Contact"
-            class="Nav_Group_Link"
+            className="Nav_Group_Link"
             activeClassName="Nav_Group_Link_active"
           >
             Contact

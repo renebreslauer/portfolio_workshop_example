@@ -20,11 +20,11 @@ class Projects extends React.Component {
               </ScrollAnimation>
             </div>
 
-            <p>
-              <ScrollAnimation animateIn="fadeInUp">
+            <ScrollAnimation animateIn="fadeInUp">
+              <div className="project_body_text">
                 <p>These are some of the projects I'm the most proud of.</p>
-              </ScrollAnimation>
-            </p>
+              </div>
+            </ScrollAnimation>
           </div>
           <div className="Projects_body_col_2">
             <ScrollAnimation animateIn="fadeInUp">
